@@ -1,2 +1,72 @@
 // scss/index.scss is where to update all styles
 // DO NOT UPDATE index.css - it is compiled
+
+// dark variables
+$dark: #0A043C;
+$extra-dark: #1B1B2F;
+$medium: #1F4068;
+$light: #FFE3D8;
+$red: #ff5000;
+$red-hover: #cc4000;
+// light variables
+$light-dark: #FAF8ED;
+$light-extra-dark: #FAF8ED;
+$light-medium: #99B080;
+$light-light: #000;
+$light-red: #F9B572;
+$light-red-hover: #cc4000;
+
+
+@font-face {
+    font-family: 'Century Old';
+    src: local('Century Old'), url('Fonts/Century Old/CenturyOldStyleBold/CenturyOldStyleBold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Century Old';
+    src: local('Century Old'), url('Fonts/Century Old/CenturyOldStyleItalic/CenturyOldStyleItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Century Old';
+    src: local('Century Old'), url('Fonts/Century Old/CenturyOldStyleRegular/CenturyOldStyleRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url('Fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url('Fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url('Fonts/Poppins/Poppins-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+$font-serif: 'Century Old', serif;
+$font-sans: 'Poppins', sans-serif;
+
+$media-medium: 1089px;
+$mobile-reg: 768px;
+$mobile-sm: 500px;
+$mobile-xs: 400px;
+
+* {
+    font-family: $font-serif;
+}

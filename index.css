@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Century Old";
+  src: local("Century Old"), url("Fonts/Century Old/CenturyOldStyleBold/CenturyOldStyleBold.ttf") format("truetype");
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Old";
+  src: local("Century Old"), url("Fonts/Century Old/CenturyOldStyleItalic/CenturyOldStyleItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Old";
+  src: local("Century Old"), url("Fonts/Century Old/CenturyOldStyleRegular/CenturyOldStyleRegular.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url("Fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url("Fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url("Fonts/Poppins/Poppins-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+* {
+  font-family: "Century Old", serif;
+}
+
+/*# sourceMappingURL=index.css.map */
